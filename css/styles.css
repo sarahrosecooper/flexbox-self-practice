@@ -49,19 +49,23 @@ table {
 }
 
 html {
-    font-size: 62.5%;
+	font-size: 62.5%;
+	font-family: 'Press Start 2P', cursive;
 }
 
 #page-container {
 	border: 3px solid red;
 	display: flex;
 	flex-wrap: wrap;
-	width: 80%
+	max-width: 80%;
+	margin: auto;
 }
 
 nav {
+	min-width: 100%;
 	border: 5px solid teal;
 	display: flex;
+	justify-content: space-evenly;
 }
 header {
 	border: 3px solid black;
@@ -84,6 +88,11 @@ nav img {
 	width: 9%;
 }
 
+nav a {
+	width: 20%;
+	text-decoration: none;
+	color: palevioletred;
+}
 .headerImage {
 	border: 1px solid green;
 	width: 100%;
